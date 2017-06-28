@@ -5,17 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-h1, li {
-  margin-left:40px !important;
-}
-
-p {
-  margin-left: 40px !important;
-  font-size: 24px !important;
-  padding-top: 10px !important;
-  margin-left: 40px !important;
-}
-
 .btn-margin {
   margin: 10px;
 }
@@ -73,6 +62,17 @@ p {
 .shrink {
   width: 50%;
   height: 50%;
+}
+
+.slide h1,li {
+  margin-left:40px !important;
+}
+
+.slide p {
+  margin-left: 40px !important;
+  font-size: 24px !important;
+  padding-top: 10px !important;
+  margin-left: 40px !important;
 }
 
 #s1, #s7, #s13 {
