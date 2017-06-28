@@ -55,11 +55,8 @@ $( document ).ready(function() {
     $("button").click(function () {
       if(currentSlide==1 || currentSlide==7 || currentSlide==13) {
         $("html, body").animate({
-            scrollTop: 0
-        }, 1);
-        $("html, body").animate({
             scrollTop: $(document).height()
-        }, 800).delay(500);
+        }, 800);
       } else {
         $("html, body").animate({
             scrollTop: 0
