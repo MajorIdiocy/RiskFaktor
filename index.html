@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Risk Factor</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+</head>
+<body>
+  <a class="next" onclick="plus(1)">&#10095;</a>
+  <a class="prev" onclick="plus(-1)">&#10094;</a>
+  <div class="slide" id="s1">
+    <img class="png" src="assets/slide1.png">
+    <div class="row">
+      <div class="col-md-5">
+        <ul class="mainList">
+          <li><button type="button" class="onlyText" onclick="plus(1)">ASK PATTY & PAUL</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(2)">ABOUT US</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(3)">CAREERS</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(4)">TESTIMONIALS</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(1)">CONTACT US</button></li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <ul class="mainList">
+          <li><button type="button" class="onlyText" onclick="mgmtHome()">MANAGEMENT RISK</button></li>
+          <li><button type="button" class="onlyText" onclick="fiscalHome()">FISCAL RISK</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(17)">POPULATION HEALTH MGMT</button></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <img class="img-responsive shrink pull-right" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="s2">
+    <h1>CONTACT US</h1>
+    <img class="png" src="assets/slide2.png">
+    <p class="text-center">RiskFäktor<br>
+      100 Pine Street, Suite 1250<br>
+      San Francisco, CA 94111<br><br>
+
+      +1.844.902.2424<br><br>
+
+      Ask Patty&Paul.com</p><br><br><br>
+    <div class="row">
+      <p class="text-center">CA 0E22410 NPN 7928674</p>
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s3">
+    <h1>ABOUT US</h1>
+    <img class="png" src="assets/slide3.png">
+    <ul>
+      <li>RiskFäktor is a full service independent healthcare and employee benefits advisory firm. Our executive
+        leadership averages over 50 years of combined experience delivering only the finest leading-edge solutions.</li>
+      <li>RiskFäktor is a privately held advisory company with full corporate transparency. We are not influenced by
+        outside factors, such as insurance companies, parent companies or third-party investors. We bring clarity and
+        coherence because you and your organization are our only focus.</li>
+      <li>The RiskFäktor approach includes the application of new constructive designs that constantly drive forward
+        with innovation and higher standards years ahead of the mainstream. Our emphasis on outcomes-based
+        advanced thinking will provide you with new levels of cost containment and transform your view of risk.</li>
+      <li>We build long term relationships based on superior knowledge, honesty, trust, respect and always exceeding
+        your expectations. We are RiskFäktor and we look forward to working smart for you.</li>
+    </ul>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s4">
+    <h1>CAREERS</h1>
+    <img class="png" src="assets/slide4.png">
+    <p>Poised for methodical and deliberate growth, there’s never been a better time to be a part of the RiskFäktor team. Here, you will enjoy all the benefits of our long-standing integrity, industry-leading advisory reputation, extensive network of resources and our entrepreneurial environment.<br>
+
+      For employment opportunities, please send your resume and cover letter detailing your desired position to: careers@riskfaktor.com</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s5">
+    <h1>CLIENT TESTIMONIALS</h1>
+    <img class="png" src="assets/slide5.png">
+    <div class="row">
+      <p class="indented">Don't take our word for it...</p>
+      <div class="col-md-4">
+        <p>Riskfäktor saves me so much time and effort by fixing vendor and plan member issues!<br>
+          I feel like they really do care about our people!<br>
+          They go the extra mile and then some.<br>
+          Julie W./Benefits Coordinator</p>
+      </div>
+      <div class="col-md-4">
+        <p>Riskfäktor is just great! We saved millions of dollars and even made our plan members more healthy at the same time.<br>
+          They really take ownership and responsibility for the success of our employee benefit and wellness programs.<br>
+          If you’re looking for the best of the best, Riskfäktor is it.<br>
+          Michel L./CFO</p>
+      </div>
+      <div class="col-md-4">
+        <p>Riskfäktor is really the only firm I’ve encountered that does what they say they’re going to do.<br>
+          Our benefits program has become so efficient that we can finally get back to focusing on running our business.<br>
+          Richie M./CEO</p>
+      </div>
+    </div>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="plus(45)">MORE</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s6">
+    <h1>CLIENT TESTIMONIALS</h1>
+    <img class="png" src="assets/slide6.png">
+    <div class="row">
+      <div class="col-md-4">
+        <p>Working with the leadership team benefitted our company greatly during a very difficult financial period. Their expertise, professionalism, knowledge and persistence delivered the best possible outcome to the company in terms of cost containment while continuing to offer our employees affordable and competitive insurance plans.<br>
+          Sherry A./ SVP HR</p>
+      </div>
+      <div class="col-md-4">
+        <p>We were with one of the top three consulting firms and assumed that was the right thing to do.<br>
+          Riskfäktor conducted a Health Insurance Premium Assessment and found $2.2M in annual savings.<br>
+          Riskfäktor is just incredible!<br>
+          Mike H./CEO</p>
+      </div>
+      <div class="col-md-4">
+        <p>We were replacing our benefits broker every other year and had just about had enough!<br>
+          Riskfäktor provided solutions to us in a way that made sense for the very first time. Also, even though our company was years behind, we’re now fully compliant with Healthcare Reform.<br>
+          Richard M./CPA</p>
+      </div>
+    </div>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s7">
+    <img class="png" src="assets/slide7.png">
+    <div class="row">
+      <div class="col-md-5">
+        <ul class="mainList">
+          <li><button type="button" class="onlyText" onclick="plus(1)">ABOUT MANAGEMENT RISK</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(2)">GLOBAL COMPLIANCE</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(3)">EMPLOYEE ENGAGEMENT</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(4)">TECHNICAL STRATEGIES</button></li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <ul class="mainList">
+          <li><button type="button" class="onlyText" onclick="plus(5)">SPECIALIZED RISK</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(14)">FEE DISCLOSURE</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="s8">
+    <h1>ABOUT MANAGEMENT RISK</h1>
+    <img class="png" src="assets/slide8.png">
+    <p>Businesses must engage with a number of professionals both within and outside of their organization to oversee its total benefits package, primarily due to the complexity of benefits and the varying laws that govern them.<br>
+      The legal, social, and human capitol aspects of today’s employee benefits require much greater integration between the CFO, Human Resources, Payroll, Risk Managers, General Counsel, and in many instances even the CEO and Board of Directors.<br>
+      RiskFäktor’s Management Risk Division addresses all potential exposures connected to the employee benefit plan, through Compliance Analytics, better Employee Engagement, Technical Strategies , and individual employer-specific approaches, each employer’s total liability is protected.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="mgmtHome()">MGMT RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s9">
+    <h1>GLOBAL COMPLIANCE</h1>
+    <img class="png" src="assets/slide9.png">
+    <p>Costly ERISA violations are typically excluded from D&O, EBL, Fiduciary Liability, and ERISA Fidelity Bonds. Compliance of the employee benefit plan should be an integral part of your company’s overall risk financing and global risk management strategies.<br>
+      RiskFäktor includes annual compliance reviews for all of its clients as a part of the regular advisory regimen. Precision compliance testing & leading-edge analysis provides the following:</p>
+    <ul>
+      <li>Identifies the potential for government fee or tax application ACA/DOL/HHS/IRS.</li>
+      <li>Restructures your programs to ensure full compliance and penalty avoidance.</li>
+      <li>Ensure full conformity for administration, notice requirements & taxation.</li>
+      <li>Compare taxation offset between fully-insured & alternative risk health plans.</li>
+      <li>Prepare your organization for government audits.</li>
+    </ul>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="mgmtHome()">MGMT RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s10">
+    <h1>EMPLOYEE ENGAGEMENT</h1>
+    <img class="png" src="assets/slide10.png">
+    <p>Educate and engage employees year-round, not only during the annual open enrollment period.<br>
+      Employees don’t participate or don’t appreciate their benefits if they aren’t aware of, or don’t understand, each facet of your benefits program. You put a lot of thought, time and effort into your employee benefits. RiskFäktor makes sure your employees understand and appreciate the value of what you offer.</p>
+    <ul>
+      <li>We deliver your corporate message and provide the information and guidance your plan members need to make informed and educated decisions.</li>
+      <li>Our engagement strategy is always personal and relevant to members at all levels of your organization.</li>
+      <li>To meet the needs of your corporate culture, RiskFäktor can integrate several forms of educational mediums, such as: traditional print, in addition to virtual mediums, such as: mobile, social media and animated video.</li>
+      <li>We work to empower your plan members and strengthen their relationship with your organization.</li>
+    </ul>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="mgmtHome()">MGMT RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s11">
+    <h1>TECHNOLOGY SOLUTIONS</h1>
+    <img class="png" src="assets/slide11.png">
+    <p>Paperless online benefits management and open enrollment includes a very broad array of formats and compositions in which to implement benefit packages for our clientele.<br>
+      Technology does promote efficiency with benefit administration and it can be customized to meet your specific needs.<br>
+      RiskFäktor offers the right solutions that best fit your needs. We then oversee the installation process, staff training and manage continual system maintenance.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="mgmtHome()">MGMT RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s12">
+    <h1>SPECIALIZED RISK</h1>
+    <img class="png" src="assets/slide12.png">
+    <p>All too often, many other important lines of coverage fall outside of the scope of a traditional employee benefits package because they are managed by someone within the organization other than Human Resources. These specialized risks include:</p><br>
+    <ul>
+      <li>International Coverage</li>
+      <li>Business Travel Accident</li>
+      <li>Student Accident & Coverage Abroad</li>
+      <li>Voluntary Benefits, and Many More!</li>
+    </ul>
+    <p> If not structured properly, these specialized benefits can create compliance risks both domestic and abroad. There can be redundancy or duplication of coverage with other plans such as Workers Compensation, Foreign Voluntary, or Auto Policies. Failure to protect your company from these complex risk exposures may jeopardize an employer’s duty of care obligations.<br>
+      RiskFäktor’s Management Risk Division supports the growing demand for specialized and global risk mitigation expertise.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="mgmtHome()">MGMT RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s13">
+    <img class="png" src="assets/slide13.png">
+    <div class="row">
+      <div class="col-md-5">
+        <ul class="mainList">
+          <li><button type="button" class="onlyText" onclick="plus(1)">ALTERNATIVE RISK</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(2)">PREMIUM ASSESSMENT</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(5)">POPULATION HEALTH MGMT</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(6)">MERGERS & AQUISITIONS</button></li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <ul class="mainList">
+          <li><button type="button" class="onlyText" onclick="plus(4)">STOP LOSS RECOVERY</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(7)">DEVA</button></li>
+          <li><button type="button" class="onlyText" onclick="plus(8)">FEE DISCLOSURE</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="s14">
+    <h1>ALTERNATIVE RISK</h1>
+    <img class="png" src="assets/slide14.png">
+    <p>ON THE LEADING EDGE, WHERE YOU BELONG<br>
+      The proper formulation of your partially self-funded benefit program reveals an exciting new world of opportunity. Comprehensive program customization reveals many savings possibilities that do not include passing extra costs on to your employees.<br>
+      You will finally be able to have intimate knowledge of where and how your benefit program dollars are spent. Fine tuning your program over time allows you to meet the needs of your employees and their dependents, while greatly reducing or removing wasteful utilization trends.<br>
+      Most broker/consultants do not possess the knowledge level and capabilities required to design and maintain a partially self-funded benefit program. Most likely, providing employee benefits is your second greatest expense. RiskFäktor can bring your benefit program to the leading edge and beyond.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s15">
+    <h1>PREMIUM ASSESSMENT</h1>
+    <img class="png" src="assets/slide15.png">
+    <p>Today’s healthcare and employee benefits industry has out-paced almost every broker/consultant both large and small. As a result, opportunities for savings through improved fiscal efficiency abound.<br>
+      HOW IT WORKS<br>
+      The RiskFäktor proprietary Health Insurance Premium Assessment includes an unbiased re-underwriting of your benefits package with a comprehensive analysis of each carrier’s underlying assumptions of risk, underwriting formulas and retention requirements. Recommendations for cost containment found through our Assessment never involves reductions in the level of benefits provided or passing additional costs on to your plan members.<br>
+      Our Assessment can provide you with a risk-free method of confirming that you have the best possible benefit plan in place and at the best price.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin" onclick="exSavings()">EXAMPLE SAVINGS</button> <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s16">
+    <h1>PREMIUM ASSESSMENT</h1>
+    <img class="png" src="assets/slide16.png">
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li>Hospital System: 11,200 employees - $3,690,000</li>
+          <li>Building Materials: 5,400 employees - $2,245,000</li>
+          <li>Aerospace: 4,250 employees - $1,865,000</li>
+          <li>Communications: 3,300 employees - $1,150,000</li>
+          <li>Technology: 1,600 employees - $920,000</li>
+          <li>Retail Chain: 1,850 employees - $885,000</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul>
+          <li>Engineering: 600 employees - $855,000</li>
+          <li>Regional Grocery Chain: 450 employees - $760,000</li>
+          <li>Municipality: 580 employees - $680,000</li>
+          <li>Manufacturing: 220 employees - $520,000</li>
+          <li>Non-Profit: 150 employees - $205,000</li>
+          <li>Venture Capital: 130 employees - $195,000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <button type=button onclick="plus(-1)">PREMIUM ASSESSMENT</button>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="s17">
+    <h1>STOP LOSS RECOVERY</h1>
+    <img class="png" src="assets/slide17.png">
+    <p>Are all your stop loss claims paid?</p>
+    <div class="row">
+      <div class="col-md-6">
+        <p>A significant time lag exists between the date of service and when the claim is processed by your TPA or carrier. For this reason, it’s typical that only 85% of your large loss claims be considered by your stop loss carrier. This 15% of unpaid stop loss claims can add up to tens of thousands of dollars.<br>
+
+          RiskFäktor has a solution to ensure that at least 98% of your outstanding excess liability is found and processed by your stop loss carrier.</p>
+      </div>
+      <div class="col-md-6">
+        <p>A prospective specific/individual policy is required and you must engage with RiskFäktor 90 days before the end of your insurance contractual period on either a fee-for-service or percentage of savings basis. Savings can be significant:</p>
+        <ul>
+          <li>Grocery Chain: 265 employees - $370,000</li>
+          <li>Non-Profit: 150 employees - $105,000</li>
+          <li>Venture Capital: 130 employees - $35,000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s18">
+    <h1>POPULATION HEALTH MANAGEMENT</h1>
+    <img class="png" src="assets/slide18.png">
+    <p>Another specialty of RiskFäktor is Population Health Management, or the means to manage the way plan
+      members utilize the healthcare industry. We independently design each component to work as one effective
+      cost containment unit.<br>
+      Some of the components we focus on include:</p>
+    <ul>
+      <li>Medication Therapy Management/MTM</li>
+      <li>Disease Management & Wellness Programs</li>
+      <li>Pharmacy Benefit Design & Delivery Management</li>
+      <li>Healthcare Benefit Design & Utilization Management</li>
+      <li>Maternity Management</li>
+      <li>ESRD & Transplant Management</li>
+    </ul>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s19">
+    <h1>MERGERS AND AQUISITIONS</h1>
+    <img class="png" src="assets/slide19.png">
+    <p>Getting deals done in today’s M&A environment requires more diligence, creativity, and interdisciplinary expertise than ever before. Our team brings a vast level of M&A experience to assist in the completion of transactions involving all aspects of buying, selling and merging companies.<br>
+      RiskFäktor represents and advises firms of all sizes in nearly every major business sector. We understand the complex nature of these transactions and the many key issues that must be analyzed and considered when developing an advantageous transition package.<br>
+      From the initial diligence to transitional products and the post-closing insurance and benefits programs, our team has unrivaled experience in applying efficient solutions to facilitate the deal while providing balance sheet protection.<br>
+      RiskFäktor continues to lead and innovate in developing new products for or clients involved in M&A transactions, whether domestic or cross-border.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s20">
+    <h1>DEPENDENT ELIGIBILITY VERIFICATION / DEVA</h1>
+    <img class="png" src="assets/slide20.png">
+    <p>RiskFäktor provides full fee transparency on an annual basis.<br>
+      While we prefer to operate on a monthly fee-for-service basis, RiskFäktor may also accept other forms of compensation such as premium commissions. Regardless of compensation method, RiskFäktor will provide you with an annual statement of income to maintain absolute fiscal transparency.<br>
+      RiskFäktor will not accept compensation that has not been fully communicated to its clientele such as insurance carrier overrides, gifts of significant value or cash bonuses.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+    </div>
+  </div>
+
+  <div class="slide" id="s21">
+    <h1>ANNUAL FEE DISCLOSURE</h1>
+    <img class="png" src="assets/slide21.png">
+    <p>RiskFäktor provides full fee transparency on an annual basis.<br>
+      While we prefer to operate on a monthly fee-for-service basis, RiskFäktor may also accept other forms of compensation such as premium commissions. Regardless of compensation method, RiskFäktor will provide you with an annual statement of income to maintain absolute fiscal transparency.<br>
+      RiskFäktor will not accept compensation that has not been fully communicated to its clientele such as insurance carrier overrides, gifts of significant value or cash bonuses.</p>
+    <div class="row">
+      <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="mgmtHome()">MGMT RISK</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
+    </div>
+  </div>
+
+  <div class="row buttonRow">
+    <button type="button" class="btn btn-default btn-margin" onclick="plus(-1)">Previous</button>
+    <button type="button" class="btn btn-default btn-margin pull-right" onclick="plus(1)">Next</button>
+  </div>
+  <!-- Scripts -->
+  <script src="scripts/jquery-3.2.1.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

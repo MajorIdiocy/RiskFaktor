@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h1, li {
+  margin-left:40px !important;
+}
+
+p {
+  margin-left: 40px !important;
+  font-size: 24px !important;
+  padding-top: 10px !important;
+  margin-left: 40px !important;
+}
+
+.btn-margin {
+  margin: 10px;
+}
+
+.indented {
+  margin-left: 40px;
+}
+
+.mainList {
+  font-size: 36px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next, .prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: black;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.onlyText {
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+}
+
+.png {
+  display: block;
+  background: #f5f5f5;
+  margin: auto;
+  width: 100%;
+}
+
+.row {
+  padding: 10px;
+}
+
+.shrink {
+  width: 50%;
+  height: 50%;
+}
+
+#s1, #s7, #s13 {
+  background-color: blue;
+  color: white;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+#s2,#s3,#s4,#s5,#s6,#s8,#s9,#s10,#s11,#s12,#s14,#s15,#s16,#s17,#s18,#s19,#s20,#s21 {
+  background-color: #696969;
+  color: white;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+#s3 p,li {
+  font-size: 24px;
+  padding-top: 10px;
+}
