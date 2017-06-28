@@ -15,6 +15,46 @@
   <link rel="stylesheet" href="styles/bootstrap.min.css">
 </head>
 <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">RiskF&‌auml;ctor</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">HOME</a></li>
+      <li><a onclick="focusDiv(currentSlide=3)">ABOUT US</a></li>
+      <li><a onclick="focusDiv(currentSlide=4)">CAREERS</a></li>
+      <li><a onclick="focusDiv(currentSlide=2)">CONTACT US</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="">MGMT RISK <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a onclick="focusDiv(currentSlide=7)">HOME</a></li>
+          <li><a onclick="focusDiv(currentSlide=8)">ABOUT MGMT RISK</a></li>
+          <li><a onclick="focusDiv(currentSlide=9)">GLOBAL COMPLIANCE</a></li>
+          <li><a onclick="focusDiv(currentSlide=10)">EMPLOYEE ENGAGEMENT</a></li>
+          <li><a onclick="focusDiv(currentSlide=11)">TECHNICAL STRATEGIES</a></li>
+          <li><a onclick="focusDiv(currentSlide=12)">SPECIALIZED RISK</a></li>
+          <li><a onclick="focusDiv(currentSlide=21)">FEE DISCLOSURE</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">FISCAL RISK <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a onclick="focusDiv(currentSlide=7)">HOME</a></li>
+          <li><a onclick="focusDiv(currentSlide=14)">ALTERNATIVE RISK</a></li>
+          <li><a onclick="focusDiv(currentSlide=15)">PREMIUM ASSESSMENT</a></li>
+          <li><a onclick="focusDiv(currentSlide=18)">POPULATION HEALTH MGMT</a></li>
+          <li><a onclick="focusDiv(currentSlide=19)">MERGERS & AQUISITIONS</a></li>
+          <li><a onclick="focusDiv(currentSlide=17)">STOP LOSS RECOVERY</a></li>
+          <li><a onclick="focusDiv(currentSlide=20)">DEVA</a></li>
+          <li><a onclick="focusDiv(currentSlide=21)">FEE DISCLOSURE</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
   <a class="next" onclick="plus(1)">&#10095;</a>
   <a class="prev" onclick="plus(-1)">&#10094;</a>
   <div class="slide" id="s1">
@@ -393,11 +433,6 @@
     <div class="row">
       <button class="btn btn-primary btn-margin pull-right" onclick="mainDiv()">MAIN</button> <button class="btn btn-primary btn-margin pull-right" onclick="mgmtHome()">MGMT RISK</button> <button class="btn btn-primary btn-margin pull-right" onclick="fiscalHome()">FISCAL RISK</button>
     </div>
-  </div>
-
-  <div class="row buttonRow">
-    <button type="button" class="btn btn-default btn-margin" onclick="plus(-1)">Previous</button>
-    <button type="button" class="btn btn-default btn-margin pull-right" onclick="plus(1)">Next</button>
   </div>
   <!-- Scripts -->
   <script src="scripts/jquery-3.2.1.min.js"></script>

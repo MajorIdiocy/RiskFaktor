@@ -35,7 +35,7 @@ p {
 
 .next, .prev {
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 50%;
   width: auto;
   margin-top: -22px;
