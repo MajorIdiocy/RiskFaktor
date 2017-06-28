@@ -43,11 +43,6 @@ function focusDiv(i) {
   for(j=0;j<slides.length;j++){
     slides[j].style.display = "none";
   }
-  if(currentSlide==1 || currentSlide==7 || currentSlide==13){
-    document.getElementsByClassName("buttonRow")[0].style.backgroundColor = "blue";
-  } else {
-    document.getElementsByClassName("buttonRow")[0].style.backgroundColor = "#696969";
-  }
   slides[currentSlide-1].style.display = "block"
 }
 
