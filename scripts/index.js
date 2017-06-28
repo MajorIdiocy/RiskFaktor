@@ -53,8 +53,14 @@ function focusDiv(i) {
 
 $( document ).ready(function() {
     $("button").click(function () {
-    $("html, body").animate({
-        scrollTop: 0
-    }, 300);
+      if(currentSlide==1 || currentSlide==7 || currentSlide==13) {
+        $("html, body").animate({
+            scrollTop: $(document).height()
+        }, 800);
+      } else {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 300);
+      }
 });
 });
