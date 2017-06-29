@@ -69,4 +69,15 @@ $( document ).ready(function() {
         }, 300);
       }
     });
+    $('body').keyup(function(e){
+   if(e.keyCode == 32){
+       plus(1);
+   }
+   if(e.keyCode == 37){
+     plus(-1);
+   }
+   if(e.keyCode == 39){
+       plus(1);
+   }
+ });
 });
