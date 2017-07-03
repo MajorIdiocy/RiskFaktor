@@ -55,7 +55,7 @@ $( document ).ready(function() {
       navs[i].removeClass("active");
     }
     event.target.addClass("active");
-  })
+  });
     $("button").click(function() {
       $("html, body").animate({
           scrollTop: 0
