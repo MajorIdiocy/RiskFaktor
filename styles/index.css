@@ -14,6 +14,10 @@ html, body {
   margin: 10px;
 }
 
+.center-content {
+  min-height: 100%;
+}
+
 .indented {
   margin-left: 40px;
 }
