@@ -101,11 +101,21 @@ $(document).ready(function() {
     $("html, body").animate({
         scrollTop: 0
     }, 500);
+    if(currentSlide==1 || currentSlide==7 || currentSlide==13){
+      document.getElementsByClassName("center-content").style.backgroundColor = "blue";
+    } else {
+      document.getElementsByClassName("center-content").style.backgroundColor = "#696969";
+    }
   });
   $("a").click(function() {
     $("html, body").animate({
         scrollTop: 0
     }, 500);
+    if(currentSlide==1 || currentSlide==7 || currentSlide==13){
+      document.getElementsByClassName("center-content").style.backgroundColor = "blue";
+    } else {
+      document.getElementsByClassName("center-content").style.backgroundColor = "#696969";
+    }
   });
 
   $('body').keyup(function(e){
@@ -114,23 +124,33 @@ $(document).ready(function() {
      $("html, body").animate({
          scrollTop: 0
      }, 500);
+     if(currentSlide==1 || currentSlide==7 || currentSlide==13){
+       document.getElementsByClassName("center-content").style.backgroundColor = "blue";
+     } else {
+       document.getElementsByClassName("center-content").style.backgroundColor = "#696969";
+     }
    }
    if(e.keyCode == 37){
      plus(-1);
      $("html, body").animate({
          scrollTop: 0
      }, 500);
+     if(currentSlide==1 || currentSlide==7 || currentSlide==13){
+       document.getElementsByClassName("center-content").style.backgroundColor = "blue";
+     } else {
+       document.getElementsByClassName("center-content").style.backgroundColor = "#696969";
+     }
    }
    if(e.keyCode == 39){
      plus(1);
      $("html, body").animate({
          scrollTop: 0
      }, 500);
+     if(currentSlide==1 || currentSlide==7 || currentSlide==13){
+       document.getElementsByClassName("center-content").style.backgroundColor = "blue";
+     } else {
+       document.getElementsByClassName("center-content").style.backgroundColor = "#696969";
+     }
    }
  });
- if(currentSlide==1 || currentSlide==7 || currentSlide==13){
-   document.getElementsByClassName("center-content").style.backgroundColor = "blue";
- } else {
-   document.getElementsByClassName("center-content").style.backgroundColor = "#696969";
- }
 });
