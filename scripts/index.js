@@ -128,4 +128,8 @@ $(document).ready(function() {
      }, 500);
    }
  });
+ $('.pull-down').each(function() {
+  var $this = $(this);
+  $this.css('margin-top', $this.parent().parent().height() - $this.height());
+});
 });
