@@ -47,10 +47,12 @@ function focusDiv(i) {
 }
 
 $(document).ready(function() {
-  $(".navbar-nav li").on("click", function(){
+  $(".navbar-nav li", ".navbar-brand").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     if($(this).parent().parent().className == "dropdown") {
       $(this).parent().parent().addClass("active");
+    } else if ($(this).className == "navbar-brand"){
+      $(".navbar-nav li").first().addClass("active");
     } else {
       $(this).addClass("active");
     }
