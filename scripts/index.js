@@ -56,12 +56,7 @@ $(document).ready(function() {
     }
   });
 
-  $(".btn-main").on("click", function(){
-    $(".nav").find(".active").removeClass("active");
-    $(".navbar-nav li").first().addClass("active");
-  });
-
-  $(".next", ".prev").on("click", function(){
+  $(".btn-update").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     switch(currentSlide){
       case 1:
