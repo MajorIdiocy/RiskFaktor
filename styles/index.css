@@ -65,7 +65,7 @@ body {
   height: 50%;
 }
 
-.slide h1,li {
+.slide h1, .slide li {
   margin-left:40px !important;
 }
 
@@ -92,7 +92,7 @@ body {
   overflow: hidden;
 }
 
-#s3 p,li {
+#s3 p, #s3 li {
   font-size: 24px;
   padding-top: 10px;
 }
