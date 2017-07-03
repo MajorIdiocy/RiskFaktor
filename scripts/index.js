@@ -128,4 +128,9 @@ $(document).ready(function() {
      }, 500);
    }
  });
+ if(currentSlide==1 || currentSlide==7 || currentSlide==13){
+   $(".center-content").css("background-color", "blue");
+ } else {
+   $(".center-content").css("background-color", "#696969");
+ }
 });
