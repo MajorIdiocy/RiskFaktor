@@ -61,15 +61,20 @@ $(document).ready(function() {
     switch(currentSlide){
       case 1:
         $("#1").addClass("active");
+        break;
       case 2:
         $("#4").addClass("active");
+        break;
       case 3:
         $("#2").addClass("active");
+        break;
       case 4:
         $("#3").addClass("active");
+        break;
       case 5:
       case 6:
         $("#5").addClass("active");
+        break;
       case 7:
       case 8:
       case 9:
@@ -77,6 +82,7 @@ $(document).ready(function() {
       case 11:
       case 12:
         $("#6").addClass("active");
+        break;
       case 13:
       case 14:
       case 15:
@@ -87,6 +93,7 @@ $(document).ready(function() {
       case 20:
       case 21:
         $("#7").addClass("active");
+        break;
     }
   });
 
