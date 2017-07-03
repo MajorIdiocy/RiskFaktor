@@ -15,6 +15,10 @@ html, body {
   margin: 10px;
 }
 
+.btn-row {
+  height: 100%;
+}
+
 .center-content {
   height: 100%;
 }
