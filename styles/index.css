@@ -4,6 +4,7 @@ body {
   padding-top: 50px;
   overflow-y: scroll;
   overflow-x: hidden;
+  font-size: 18px;
 }
 
 html, body {
@@ -28,7 +29,7 @@ html, body {
 }
 
 .mainList {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 .next {
@@ -85,7 +86,6 @@ html, body {
 
 .slide p {
   margin-left: 40px !important;
-  font-size: 24px !important;
   padding-top: 10px !important;
   margin-left: 40px !important;
 }
