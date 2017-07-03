@@ -79,7 +79,6 @@ html, body {
 .pull-down {
   position:absolute;
   bottom:0;
-  right:0;
   margin-bottom:7px;
 }
 
