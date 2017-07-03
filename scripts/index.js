@@ -56,6 +56,11 @@ $(document).ready(function() {
     }
   });
 
+  $(".btn-main").on("click", function(){
+    $(".nav").find(".active").removeClass("active");
+    $(".navbar-nav li").first().addClass("active");
+  });
+
   $("button").click(function() {
     $("html, body").animate({
         scrollTop: 0
