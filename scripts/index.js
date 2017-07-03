@@ -47,9 +47,13 @@ function focusDiv(i) {
 }
 
 $(document).ready(function() {
-  $(".nav a").on("click", function(){
+  $(".navbar-nav li").on("click", function(){
     $(".nav").find(".active").removeClass("active");
-    $(this).parent().addClass("active");
+    if($(this).parent().parent().className == "dropdown") {
+      $(this).parent().parent().addClass("active");
+    } else {
+      $(this).addClass("active");
+    }
   });
 
   $("button").click(function() {
