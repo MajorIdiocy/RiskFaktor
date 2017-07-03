@@ -128,9 +128,4 @@ $(document).ready(function() {
      }, 500);
    }
  });
- $('.pull-right').each(function() {
-  var $this = $(this);
-  var rmargin = (document.width() - document.getElementsByClassName("container").first().width())/2+40;
-  $this.css('margin-right', rmargin + "px");
-});
 });

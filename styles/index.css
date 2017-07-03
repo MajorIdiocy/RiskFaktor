@@ -78,8 +78,8 @@ html, body {
 
 .pull-down {
   position:absolute;
-  bottom:0;
-  margin-bottom:7px;
+  bottom:5px;
+  right:5px;
 }
 
 .row {
@@ -109,6 +109,7 @@ html, body {
   width: 100%;
   overflow: hidden;
   min-height: 100%;
+  position: relative;
 }
 
 #s2,#s3,#s4,#s5,#s6,#s8,#s9,#s10,#s11,#s12,#s14,#s15,#s16,#s17,#s18,#s19,#s20,#s21 {
@@ -119,6 +120,7 @@ html, body {
   overflow: hidden;
   min-height: 100%;
   font-size: 20px !important;
+  position: relative;
 }
 
 #s3 p, #s3 li {
