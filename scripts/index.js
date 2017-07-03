@@ -48,36 +48,33 @@ function focusDiv(i) {
 
 $( document ).ready(function() {
     $("button").click(function () {
-      if(currentSlide==1 || currentSlide==7 || currentSlide==13) {
-        $("html, body").animate({
-            scrollTop: $(document).height()
-        }, 800);
-      } else {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 300);
-      }
+      $("html, body").animate({
+          scrollTop: 0
+      }, 500);
     });
     $("a").click(function () {
-      if(currentSlide==1 || currentSlide==7 || currentSlide==13) {
-        $("html, body").animate({
-            scrollTop: $(document).height()
-        }, 800);
-      } else {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 300);
-      }
+      $("html, body").animate({
+          scrollTop: 0
+      }, 500);
     });
     $('body').keyup(function(e){
    if(e.keyCode == 32){
        plus(1);
+       $("html, body").animate({
+           scrollTop: 0
+       }, 500);
    }
    if(e.keyCode == 37){
      plus(-1);
+     $("html, body").animate({
+         scrollTop: 0
+     }, 500);
    }
    if(e.keyCode == 39){
        plus(1);
+       $("html, body").animate({
+           scrollTop: 0
+       }, 500);
    }
  });
 });
