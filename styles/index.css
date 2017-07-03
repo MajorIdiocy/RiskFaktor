@@ -29,7 +29,7 @@ html, body {
 }
 
 .mainList li{
-  font-size: 28px;
+  font-size: 24px;
   margin-top: 5px;
 }
 
@@ -83,12 +83,13 @@ html, body {
 
 .slide h1, .slide li {
   margin-left:40px !important;
+  margin-right:40px !important;
 }
 
 .slide p {
   margin-left: 40px !important;
   padding-top: 10px !important;
-  margin-left: 40px !important;
+  margin-right: 40px !important;
 }
 
 #s1, #s7, #s13 {
@@ -98,7 +99,6 @@ html, body {
   width: 100%;
   overflow: hidden;
   min-height: 100%;
-  font-size: 20px !important;
 }
 
 #s2,#s3,#s4,#s5,#s6,#s8,#s9,#s10,#s11,#s12,#s14,#s15,#s16,#s17,#s18,#s19,#s20,#s21 {
