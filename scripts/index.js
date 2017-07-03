@@ -47,12 +47,21 @@ function focusDiv(i) {
 }
 
 $( document ).ready(function() {
-    $("button").click(function () {
+
+  $(".navbar-nav > li").click(function() {
+    var navs = document.getElementsByClassName("navbar-nav").getElementsByTagName("li")
+    var i;
+    for(i=0;i<navs.length;i++){
+      navs[i].removeClass("active");
+    }
+    event.target.addClass("active");
+  })
+    $("button").click(function() {
       $("html, body").animate({
           scrollTop: 0
       }, 500);
     });
-    $("a").click(function () {
+    $("a").click(function() {
       $("html, body").animate({
           scrollTop: 0
       }, 500);
