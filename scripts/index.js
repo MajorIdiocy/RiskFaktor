@@ -63,13 +63,13 @@ $(document).ready(function() {
         $("#1").addClass("active");
         break;
       case 2:
-        $("#4").addClass("active");
-        break;
-      case 3:
         $("#2").addClass("active");
         break;
-      case 4:
+      case 3:
         $("#3").addClass("active");
+        break;
+      case 4:
+        $("#4").addClass("active");
         break;
       case 5:
       case 6:
