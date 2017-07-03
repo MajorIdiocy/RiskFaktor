@@ -61,6 +61,40 @@ $(document).ready(function() {
     $(".navbar-nav li").first().addClass("active");
   });
 
+  $(".next", ".prev").on("click", function(){
+    $(".nav").find(".active").removeClass("active");
+    switch(currentSlide){
+      case 1:
+        $(".navbar-nav li").get(0).addClass("active");
+      case 2:
+        $(".navbar-nav li").get(3).addClass("active");
+      case 3:
+        $(".navbar-nav li").get(1).addClass("active");
+      case 4:
+        $(".navbar-nav li").get(2).addClass("active");
+      case 5:
+      case 6:
+        $(".navbar-nav li").get(4).addClass("active");
+      case 7:
+      case 8:
+      case 9:
+      case 10:
+      case 11:
+      case 12:
+        $(".navbar-nav li").get(5).addClass("active");
+      case 13:
+      case 14:
+      case 15:
+      case 16:
+      case 17:
+      case 18:
+      case 19:
+      case 20:
+      case 21:
+        $(".navbar-nav li").get(13).addClass("active");
+    }
+  });
+
   $("button").click(function() {
     $("html, body").animate({
         scrollTop: 0
