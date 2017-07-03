@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  height: 100%;
+}
+
 .btn-margin {
   margin: 10px;
 }
