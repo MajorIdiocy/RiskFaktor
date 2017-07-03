@@ -1,4 +1,5 @@
 var currentSlide = 1;
+var prevSlide;
 focusDiv(currentSlide);
 
 function plus(i) {
@@ -47,12 +48,10 @@ function focusDiv(i) {
 }
 
 $(document).ready(function() {
+  //Catch for slide 21 (applies to Managment risk and Fiscal risk dropdowns)
   $(".navbar-nav li").on("click", function(){
-    $(".nav").find(".active").removeClass("active");
     if($(this).parent().parent().className == "dropdown") {
       $(this).parent().parent().addClass("active");
-    } else {
-      $(this).addClass("active");
     }
   });
 
@@ -87,4 +86,38 @@ $(document).ready(function() {
      }, 500);
    }
  });
+
+ if(prevSlide != currentSlide) {
+   prevSlide = currentSlide;
+   $(".nav").find(".active").removeClass("active");
+   switch(currentSlide){
+     case 1:
+      $(".navbar-nav li").get(0).addClass("active");
+     case 2:
+      $(".navbar-nav li").get(3).addClass("active");
+     case 3:
+      $(".navbar-nav li").get(1).addClass("active");
+     case 4:
+      $(".navbar-nav li").get(2).addClass("active");
+     case 5:
+     case 6:
+      $(".navbar-nav li").get(4).addClass("active");
+     case 7:
+     case 8:
+     case 9:
+     case 10:
+     case 11:
+     case 12:
+      $(".navbar-nav li").get(5).addClass("active");
+     case 13:
+     case 14:
+     case 15:
+     case 16:
+     case 17:
+     case 18:
+     case 19:
+     case 20:
+      $(".navbar-nav li").get(13).addClass("active");
+   }
+ }
 });
