@@ -20,11 +20,6 @@ html, body {
   height: 100%;
 }
 
-.center-vertical {
-  display: flex;
-  align-items: center;
-}
-
 .indented {
   margin-left: 40px;
 }
