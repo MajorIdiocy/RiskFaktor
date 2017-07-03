@@ -21,9 +21,8 @@ html, body {
 }
 
 .center-vertical {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
+  display: flex;
+  align-items: center;
 }
 
 .indented {
