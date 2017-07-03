@@ -16,6 +16,7 @@ html, body {
 }
 
 .btn-row {
+  display: inline-flex;
   height: 100%;
 }
 
