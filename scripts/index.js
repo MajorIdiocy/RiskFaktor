@@ -46,32 +46,29 @@ function focusDiv(i) {
   slides[currentSlide-1].style.display = "block"
 }
 
-$( document ).ready(function() {
-
-  $(".navbar-nav > li").click(function() {
-    var navs = document.getElementsByClassName("navbar-nav").getElementsByTagName("li")
-    var i;
-    for(i=0;i<navs.length;i++){
-      navs[i].removeClass("active");
-    }
-    event.target.addClass("active");
+$(document).ready(function() {
+  $(".nav a").on("click", function(){
+    $(".nav").find(".active").removeClass("active");
+    $(this).parent().addClass("active");
   });
-    $("button").click(function() {
-      $("html, body").animate({
-          scrollTop: 0
-      }, 500);
-    });
-    $("a").click(function() {
-      $("html, body").animate({
-          scrollTop: 0
-      }, 500);
-    });
-    $('body').keyup(function(e){
+
+  $("button").click(function() {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 500);
+  });
+  $("a").click(function() {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 500);
+  });
+
+  $('body').keyup(function(e){
    if(e.keyCode == 32){
-       plus(1);
-       $("html, body").animate({
-           scrollTop: 0
-       }, 500);
+     plus(1);
+     $("html, body").animate({
+         scrollTop: 0
+     }, 500);
    }
    if(e.keyCode == 37){
      plus(-1);
@@ -80,10 +77,10 @@ $( document ).ready(function() {
      }, 500);
    }
    if(e.keyCode == 39){
-       plus(1);
-       $("html, body").animate({
-           scrollTop: 0
-       }, 500);
+     plus(1);
+     $("html, body").animate({
+         scrollTop: 0
+     }, 500);
    }
  });
 });
