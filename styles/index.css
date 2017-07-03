@@ -16,7 +16,8 @@ html, body {
 }
 
 .btn-row {
-  height: 100%;
+  position:absolute;
+  bottom:10px;
 }
 
 .center-content {
@@ -76,11 +77,6 @@ html, body {
   width: 100%;
 }
 
-.pull-down {
-  position:absolute;
-  bottom:5px;
-  right:5px;
-}
 
 .row {
   padding: 10px;
