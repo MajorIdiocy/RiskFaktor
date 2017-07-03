@@ -129,8 +129,8 @@ $(document).ready(function() {
    }
  });
  if(currentSlide==1 || currentSlide==7 || currentSlide==13){
-   $(".center-content").css("background-color", "blue");
+   document.getElementsByClassName("center-content").style.backgroundColor = "blue";
  } else {
-   $(".center-content").css("background-color", "#696969");
+   document.getElementsByClassName("center-content").style.backgroundColor = "#696969";
  }
 });
