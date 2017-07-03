@@ -51,7 +51,7 @@ $(document).ready(function() {
     $(".nav").find(".active").removeClass("active");
     if($(this).parent().parent().className == "dropdown") {
       $(this).parent().parent().addClass("active");
-    } else if ($(this).className == "navbar-brand"){
+    } else if ($(this).parent().className == "navbar-header"){
       $(".navbar-nav li").first().addClass("active");
     } else {
       $(this).addClass("active");
