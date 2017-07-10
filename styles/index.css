@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 50px;
-  padding-bottom: 70px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -90,6 +89,16 @@ html, body {
   height: 50%;
 }
 
+.slide {
+  padding-bottom: 70px;
+  color: white;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+}
+
 .slide h1, .slide li {
   margin-left:40px !important;
   margin-right:40px !important;
@@ -103,23 +112,11 @@ html, body {
 
 #s1, #s7, #s13 {
   background-color: blue;
-  color: white;
-  margin: auto;
-  width: 100%;
-  overflow: hidden;
-  min-height: 100%;
-  position: relative;
 }
 
 #s2,#s3,#s4,#s5,#s6,#s8,#s9,#s10,#s11,#s12,#s14,#s15,#s16,#s17,#s18,#s19,#s20,#s21 {
   background-color: #696969;
-  color: white;
-  margin: auto;
-  width: 100%;
-  overflow: hidden;
-  min-height: 100%;
   font-size: 20px !important;
-  position: relative;
 }
 
 #s3 p, #s3 li {
