@@ -11,6 +11,10 @@ html, body {
   background-color: #F5F5F5 !important;
 }
 
+ul {
+  text-align: left;
+}
+
 .btn-margin {
   margin: 10px;
   opacity: .5;
