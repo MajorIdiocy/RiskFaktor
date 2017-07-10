@@ -12,7 +12,7 @@ html, body {
 }
 
 ul {
-  text-align: left;
+  text-align: left !important;
 }
 
 .btn-margin {
