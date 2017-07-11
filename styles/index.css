@@ -11,10 +11,6 @@ html, body {
   background-color: #F5F5F5 !important;
 }
 
-ul {
-  text-align: left !important;
-}
-
 .btn-margin {
   margin: 10px;
   opacity: .5;
@@ -74,6 +70,7 @@ ul {
   border:none;
   margin:0;
   padding:0;
+  text-align: left !important;
 }
 
 .png {
