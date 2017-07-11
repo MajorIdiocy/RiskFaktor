@@ -87,8 +87,8 @@ html, body {
 }
 
 .shrink {
-  max-width: 32px;
-  max-height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .slide {
