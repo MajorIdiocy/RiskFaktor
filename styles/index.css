@@ -78,7 +78,7 @@ html, body {
   background: #f5f5f5;
   margin: auto;
   image-rendering: crisp-edges;
-  width: 100%;
+  max-width: 100%;
 }
 
 
