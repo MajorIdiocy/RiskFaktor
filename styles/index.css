@@ -77,7 +77,7 @@ html, body {
   display: block;
   background: #f5f5f5;
   margin: auto;
-  image-rendering: pixelated;
+  image-rendering: crisp-edges;
   width: 100%;
 }
 
