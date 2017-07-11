@@ -78,7 +78,7 @@ html, body {
   background: #f5f5f5;
   margin: auto;
   image-rendering: crisp-edges;
-  width: 100%;
+  width: 75%;
 }
 
 
@@ -117,7 +117,7 @@ html, body {
 }
 
 #s2,#s3,#s4,#s5,#s6,#s8,#s9,#s10,#s11,#s12,#s14,#s15,#s16,#s17,#s18,#s19,#s20,#s21 {
-  background-color: #696969;
+  background-color: #444444;
   font-size: 20px !important;
 }
 
